@@ -1,11 +1,32 @@
+# 🚀 ISTQB Docsify Full Setup (Copy & Use)
+
+## 📂 Repository Structure
+
+```
+istqb-notes/
+│
+├── index.html
+├── README.md
+├── _sidebar.md
+├── chapter1.md
+├── chapter2.md
+├── chapter3.md
+├── chapter4.md
+├── chapter5.md
+├── chapter6.md
+```
+
+---
+
+# 1️⃣ index.html
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>ISTQB Notes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Theme -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
 
@@ -15,11 +36,185 @@
   <script>
     window.$docsify = {
       name: 'ISTQB Notes',
-      repo: '',
-      loadSidebar: true
+      loadSidebar: true,
+      subMaxLevel: 2
     }
   </script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
+```
+
+---
+
+# 2️⃣ README.md (Home)
+
+```md
+# 🎯 ISTQB Notes
+
+Welcome to my QA knowledge base 🚀
+
+## 📚 Contents
+- Fundamentals
+- SDLC
+- Static Testing
+- Test Design
+- Test Management
+- Defect Management
+```
+
+---
+
+# 3️⃣ _sidebar.md
+
+```md
+# 📘 ISTQB Notes
+
+- [Home](/)
+
+## Fundamentals
+- [Chapter 1](chapter1.md)
+
+## SDLC
+- [Chapter 2](chapter2.md)
+
+## Static Testing
+- [Chapter 3](chapter3.md)
+
+## Test Design
+- [Chapter 4](chapter4.md)
+
+## Management
+- [Chapter 5](chapter5.md)
+
+## Defect
+- [Chapter 6](chapter6.md)
+```
+
+---
+
+# 4️⃣ chapter1.md
+
+```md
+# 🧠 Chapter 1: Fundamentals
+
+## What is Testing?
+Testing is the process of evaluating a system to detect defects and ensure quality.
+
+## 7 Principles
+- Testing shows presence of defects
+- Exhaustive testing is impossible
+- Early testing
+- Defect clustering
+- Pesticide paradox
+- Context dependent
+- Absence of errors fallacy
+```
+
+---
+
+# 5️⃣ chapter2.md
+
+```md
+# 🔄 Chapter 2: SDLC
+
+## Models
+- Waterfall
+- Agile
+
+## Test Levels
+- Unit
+- Integration
+- System
+- UAT
+
+## Test Types
+- Functional
+- Non-functional
+```
+
+---
+
+# 6️⃣ chapter3.md
+
+```md
+# 🧪 Chapter 3: Static Testing
+
+## Types
+- Review
+- Static Analysis
+
+## Benefits
+- Early bug detection
+- Cost saving
+```
+
+---
+
+# 7️⃣ chapter4.md
+
+```md
+# 🔥 Chapter 4: Test Design
+
+## Techniques
+- Equivalence Partitioning
+- Boundary Value Analysis
+- Decision Table
+- State Transition
+
+## White-box
+- Cyclomatic Complexity = decision + 1
+```
+
+---
+
+# 8️⃣ chapter5.md
+
+```md
+# 🛠️ Chapter 5: Test Management
+
+## Planning
+- Scope
+- Resource
+- Timeline
+
+## Risk-based Testing
+Focus on high-risk areas
+```
+
+---
+
+# 9️⃣ chapter6.md
+
+```md
+# 🐞 Chapter 6: Defect Management
+
+## Bug Lifecycle
+- New
+- Assigned
+- Fixed
+- Retest
+- Closed
+
+## Severity vs Priority
+- Severity = impact
+- Priority = urgency
+```
+
+---
+
+# ✅ FINAL STEP
+
+Go to GitHub → Settings → Pages → Enable
+
+Your site:
+[https://yourname.github.io/istqb-notes/](https://yourname.github.io/istqb-notes/)
+
+---
+
+# 💡 Next Upgrade Ideas
+
+* Add search plugin
+* Add dark theme
+* Add real examples
