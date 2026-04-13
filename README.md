@@ -1,1 +1,1 @@
-# learningAPI
+# istqb-notes
