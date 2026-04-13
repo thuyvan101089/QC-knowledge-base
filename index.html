@@ -1,51 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Learning Journey</title>
+  <meta charset="UTF-8">
+  <title>ISTQB Notes</title>
   <style>
     body {
       font-family: Arial;
-      margin: 40px;
-      background: #f5f5f5;
-    }
-    h1 {
-      color: #333;
-    }
-    .card {
-      background: white;
+      max-width: 800px;
+      margin: auto;
       padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
+      line-height: 1.6;
+    }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; }
+    .box {
+      background: #f4f4f4;
+      padding: 10px;
+      border-radius: 8px;
     }
   </style>
 </head>
 
 <body>
-  <a href="index.html">Home</a>
-<a href="about.html">About</a>
-<h1>📘 Hành trình học Tester</h1>
 
-<div class="card">
-  <h2>👋 Giới thiệu</h2>
-  <p>Mình đang học để trở thành QA Tester.</p>
-</div>
-  
-  <div class="card">
-  <h2>📘 API Testing</h2>
-  <p>GET /users → trả về list user</p>
+<h1>📘 ISTQB Notes</h1>
+
+<h2>🎯 Chapter 1: Fundamentals</h2>
+
+<div class="box">
+<p><b>Testing là gì?</b></p>
+<p>Testing là quá trình kiểm tra để phát hiện lỗi và đảm bảo chất lượng phần mềm.</p>
 </div>
 
-<div class="card">
-  <h2>🧪 Test Case Login</h2>
-  <p>Input: username/password</p>
-  <p>Expected: login success</p>
-</div>
+<h2>🔥 7 Principles</h2>
+<ul>
+  <li>Testing shows presence of defects</li>
+  <li>Exhaustive testing is impossible</li>
+  <li>Early testing</li>
+  <li>Defect clustering</li>
+  <li>Pesticide paradox</li>
+  <li>Context dependent</li>
+  <li>Absence of errors fallacy</li>
+</ul>
 
-<div class="card">
-  <h2>🐞 Bug Example</h2>
-  <p>Không login được khi password sai format.</p>
-</div>
-
+<h2>💡 Tip</h2>
+<p>Không cần test tất cả — hãy test thông minh.</p>
 
 </body>
 </html>
